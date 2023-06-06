@@ -1,4 +1,10 @@
-flask
+click
+gunicorn
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
+Flask
 scikit-learn
 flasgger
 pandas
