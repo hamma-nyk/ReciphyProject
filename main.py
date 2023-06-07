@@ -89,7 +89,7 @@ def similar(menu):
     # result = {
     #     'similars':similars_menu_list
     # }
-    return jsonify(similar_menu_list)
+    return jsonify(similars_menu_list)
     # return jsonify(result)
 
 if __name__ == "__main__":
