@@ -86,11 +86,11 @@ def similar(menu):
         else:
             similars_menu_list.append(i)
     
-    result = {
-        'similars':similars_menu_list
-    }
-    
-    return jsonify(result)
+    # result = {
+    #     'similars':similars_menu_list
+    # }
+    return jsonify(similar_menu_list)
+    # return jsonify(result)
 
 if __name__ == "__main__":
     app.run(debug=True, port=os.getenv("PORT", default=5000))
